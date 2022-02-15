@@ -22,6 +22,9 @@ const Counter = () => {
       >
         +
       </button>
+      <button aria-label="Reset value" onClick={() => dispatch(reset())}>
+        reset
+      </button>
     </div>
   );
 };
