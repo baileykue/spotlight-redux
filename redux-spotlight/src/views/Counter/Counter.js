@@ -6,17 +6,9 @@ const Counter = () => {
 
   return (
     <div>
-      <button
-        aria-label="Decrement value"
-      >
-        -
-      </button>
-      <span>{count}</span>
-      <button
-        aria-label="Increment value"
-      >
-        +
-      </button>
+      <button aria-label="Decrement value">-</button>
+      <span>{}</span>
+      <button aria-label="Increment value">+</button>
     </div>
   );
 };
